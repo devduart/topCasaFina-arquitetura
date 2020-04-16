@@ -1,0 +1,42 @@
+#paineis-sobre{
+	margin-top: 20px;
+}
+#posicao-um,
+#posicao-dois,
+#posicao-tres {
+	margin-bottom: 5px;
+}
+
+#banner-separador{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: linear-gradient(#FEFEFE, #888888, #FEFEFE);
+}
+
+.titulo-depoimentos{
+	background-color: #0275D8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #FFF;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+
+.grupo-radio,
+.contato-select{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer{
+	background-color: #333;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer address:last-child{
+	margin-bottom: 0;
+
+}
