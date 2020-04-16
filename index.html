@@ -42,55 +42,59 @@
 				</div>
 			</nav>
 		</div>
-		<div class="topCasaFina-banner">
-			<h1>TopCasaFina Arquitetura</h1>
-			<p>Projetando a casa dos sonhos desde 2000 A.C</p>
-			<a href="#contato"><button class="btn btn-primary btn-lg" >Contate-nos agora</button></a>
-		</div>
+		<dir class="container topCasaFina-bannerWrapper">
+			<div class="topCasaFina-banner">
+				<h1>TopCasaFina Arquitetura</h1>
+				<p>Projetando a casa dos sonhos desde 2000 A.C</p>
+				<a href="#contato"><button class="btn btn-primary btn-lg" >Contate-nos agora</button></a>
+			</div>
+		</dir>
 	</header>
 	<!-- Sobre Nos-->
 	<section id="sobre-nos" class="container">
 		<h2>Sobre Nós</h2>
-		<img src="img/empresa.jpg" class="img-responsive img-thumbnail" alt="Logo da Empresa">
+		<div class="row ">
+			<img src="img/empresa.jpg" class="img-responsive img-thumbnail col-md-6" alt="Logo da Empresa">
 
-		<div class="accordion" id="paineis-sobre">
-			<div class="card">
-				<div class="card-header" id="posicao-um">
-					<h3 class="card-title" data-toggle="collapse" data-target="#primeiro-paragrafo" aria-expanded="true" aria-controls="collapseOne">
-						Desde 1935
-					</h3>
-				</div>
-				<div id="primeiro-paragrafo" class="collapse" aria-labelledby="posicao-um" data-parent="#paineis-sobre">
-					<div class="card-body">
-						<p>Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
+			<div class="accordion col-md-6" id="paineis-sobre">
+				<div class="card">
+					<div class="card-header" id="posicao-um">
+						<h3 class="card-title" data-toggle="collapse" data-target="#primeiro-paragrafo" aria-expanded="true" aria-controls="collapseOne">
+							Desde 1935
+						</h3>
 					</div>
+					<div id="primeiro-paragrafo" class="collapse" aria-labelledby="posicao-um" data-parent="#paineis-sobre">
+						<div class="card-body">
+							<p>Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
+						</div>
+					</div>	
+				</div>
+
+				<div class="card">
+					<div class="card-header" id="posicao-dois">
+						<h3 class="card-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis
+						</h3>
+					</div>
+					<div id="segundo-paragrafo" class="collapse" aria-labelledby="posicao-dois" data-parent="#paineis-sobre">
+						<div class="card-body">
+							<p>Preços a partir de R$ 1000,00.</p>
+						</div>
+					</div>	
+				</div>
+
+				<div class="card">
+					<div class="card-header" id="posicao-tres">			
+						<h3 class="card-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito
+						</h3>
+					</div>
+					<div id="terceiro-paragrafo" class="collapse" aria-labelledby="posicao-tres" data-parent="#paineis-sobre">
+						<div class="card-body">			
+							<p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+						</div>
+					</div>	
 				</div>	
 			</div>
-
-			<div class="card">
-				<div class="card-header" id="posicao-dois">
-					<h3 class="card-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis
-					</h3>
-				</div>
-				<div id="segundo-paragrafo" class="collapse" aria-labelledby="posicao-dois" data-parent="#paineis-sobre">
-					<div class="card-body">
-						<p>Preços a partir de R$ 1000,00.</p>
-					</div>
-				</div>	
-			</div>
-
-			<div class="card">
-				<div class="card-header" id="posicao-tres">			
-					<h3 class="card-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito
-					</h3>
-				</div>
-				<div id="terceiro-paragrafo" class="collapse" aria-labelledby="posicao-tres" data-parent="#paineis-sobre">
-					<div class="card-body">			
-						<p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
-					</div>
-				</div>	
-			</div>	
-		</div>	
+		</div>
 	</section>
 	<!-- Banner Separador -->
 	<div class="jumbotron jumbotron-fluid" id="banner-separador">
@@ -104,51 +108,56 @@
 		<h2>
 			Nossos Projetos
 		</h2>
-		<figure class="card" id="nossos-projetos-castelo">
-			<img src="img/projetos/casa-castelo.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
-			<figcaption class="card-body">
-				<h3 class="card-title">Casa Castelo</h3>		
-				<p class="card-text">A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
-			</figcaption>
-		</figure>
-
-		<figure class="card" id="nossos-projetos-casa-lago">
-			<img src="img/projetos/casa-lago.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
-			<figcaption class="card-body">
-				<h3 class="card-title">Casa Lago</h3>		
-				<p class="card-text">A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
-			</figcaption>
-		</figure>
-
-
-		<figure class="card" id="nossos-projetos-mercado-marapira">
-			<img src="img/projetos/mercado-marapira.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
-			<figcaption class="card-body">
-				<h3 class="card-title">Mercado Marapira</h3>		
-				<p class="card-text">O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
-			</figcaption>
-		</figure>
-
-
-		<figure class="card" id="nossos-projetos-palacio-dionisio">
-			<img src="img/projetos/palacio-dionisio.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
-			<figcaption class="card-body">
-				<h3 class="card-title">Palácio Dionísio</h3>		
-				<p class="card-text">O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
-			</figcaption>
-		</figure>
-
-
-		<figure class="card" id="nossos-projetos-residencia-ludi">
-			<img src="img/projetos/residencia-ludi.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
-			<figcaption class="card-body">
-				<h3 class="card-title">Residência Ludi</h3>		
-				<p class="card-text">A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing..</p>
-			</figcaption>
-		</figure>
+		<div class=" row">
+			<div class="col-md-6 col-lg-4">
+				<figure class="card">
+					<img src="img/projetos/casa-castelo.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
+					<figcaption class="card-body">
+						<h3 class="card-title">Casa Castelo</h3>		
+						<p class="card-text">A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class=" col-md-6 col-lg-4">
+				<figure class="card">
+					<img src="img/projetos/casa-lago.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
+					<figcaption class="card-body">
+						<h3 class="card-title">Casa Lago</h3>		
+						<p class="card-text">A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class=" col-md-6 col-lg-4">
+				<figure class="card">
+					<img src="img/projetos/mercado-marapira.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
+					<figcaption class="card-body">
+						<h3 class="card-title">Mercado Marapira</h3>		
+						<p class="card-text">O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class=" col-md-6 col-lg-4">
+				<figure class="card">
+					<img src="img/projetos/palacio-dionisio.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
+					<figcaption class="card-body">
+						<h3 class="card-title">Palácio Dionísio</h3>		
+						<p class="card-text">O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class=" col-md-6 col-lg-4">
+				<figure class="card">
+					<img src="img/projetos/residencia-ludi.png" class="card-img-top img-responsive img-thumbnail" alt="Foto da Casa Castelo">
+					<figcaption class="card-body">
+						<h3 class="card-title">Residência Ludi</h3>		
+						<p class="card-text">A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing..</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
 	</section>
 	<!-- Depoimentos -->
-	<section id="depoimentos">
+	<section id="depoimentos" class="container">
 		<h2 class="container titulo-depoimentos">Depoimento de Clientes</h2>
 		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -190,63 +199,69 @@
 		</div>
 	</section>
 	<!-- Video -->
-	<section id="video-institucional" class="container">
-		<h2>Vídeo Institucional</h2>
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/yalxT0PEx8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="container">
+		<div class="row">
+			<section id="video-institucional" class="col-md-6">
+				<h2>Vídeo Institucional</h2>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/yalxT0PEx8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>	
+			<!-- Contato -->
+			<section id="contato" class="col-md-6">
+
+				<h2>Contato</h2>
+				<p>Entre em contato conosco</p>
+				<form>
+					<div class="form-group">
+						<label for="contato-name">Nome:</label>
+						<input class="form-control" id="contato-name" type="text" placeholder="Seu Nome" required>
+					</div>
+					<div class="form-group">
+						<label for="contato-email">E-mail:</label>
+						<div class="input-group-prepend">
+							<div class="input-group-text">@</div>
+							<input class="form-control" id="contato-email" type="email" placeholder="email@domain.com" required>
+						</div>	
+					</div>
+					<div class="grupo-radio">
+						<div class="custom-radio">
+							<label>
+								<input type="radio" name="tipo-pessoa" checked>
+								Pessoa Fisica
+							</label>
+						</div>
+						<div class="custom-radio">	
+							<label>
+								<input type="radio" name="tipo-pessoa">
+								Pessoa Jurídica
+							</label>
+						</div>
+					</div><!--
+						bug tem q ter um espaço
+					--><select class="custom-select custom-select-sm contato-select" required>
+						<option disabled selected>Tipo de Situação</option>
+						<option value="1">Casa</option>
+						<option value="2">Apartamento</option>
+						<option value="3">Mansão</option>
+					</select>
+
+					<button type="submit" class="btn btn-primary">Enviar</button>
+
+				</form>
+
+			</section>
 		</div>
-	</section>	
-	<!-- Contato -->
-	<section id="contato" class="container">
-		<h2>Contato</h2>
-		<p>Entre em contato conosco</p>
-		<form>
-			<div class="form-group">
-				<label for="contato-name">Nome:</label>
-				<input class="form-control" id="contato-name" type="text" placeholder="Seu Nome" required>
-			</div>
-			<div class="form-group">
-				<label for="contato-email">E-mail:</label>
-				<div class="input-group-prepend">
-					<div class="input-group-text">@</div>
-					<input class="form-control" id="contato-email" type="email" placeholder="email@domain.com" required>
-				</div>	
-			</div>
-			<div class="grupo-radio">
-				<div class="custom-radio">
-					<label>
-						<input type="radio" name="tipo-pessoa" checked>
-						Pessoa Fisica
-					</label>
-				</div>
-				<div class="custom-radio">	
-					<label>
-						<input type="radio" name="tipo-pessoa">
-						Pessoa Jurídica
-					</label>
-				</div>
-			</div><!--
-				bug tem q ter um espaço
-			--><select class="custom-select custom-select-sm contato-select" required>
-				<option disabled selected>Tipo de Situação</option>
-				<option value="1">Casa</option>
-				<option value="2">Apartamento</option>
-				<option value="3">Mansão</option>
-			</select>
-
-			<button type="submit" class="btn btn-primary">Enviar</button>
-
-		</form>
-	</section>
+	</div>
 
 	<footer>
-		<address>
+		<address class="container">
 			<strong>TopCasaFina Arquitetura</strong><br>
 			Rua Vergueiro, XXXX, Vila Mariana<br>
 			São Paulo, SP<br>
 			<abbr title="Phone">Tel:</abbr> (XX) XXXX-XXXX ou XXXX-XXXX<br>
 		</address>
-		<address>
+		<address class="container">
 			E-mail: contato.topcasafina@example.com.br
 		</address>
 	</footer>

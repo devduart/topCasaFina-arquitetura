@@ -5,7 +5,7 @@
 #posicao-um,
 #posicao-dois,
 #posicao-tres {
-	margin-bottom: 5px;
+	margin-bottom: auto;
 }
 
 #banner-separador{
@@ -33,16 +33,16 @@ header h1{
 }
 
 .topCasaFina-banner{
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    width: 80%;
-    border-radius: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.3s;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
 }
 
 .titulo-depoimentos{
@@ -71,4 +71,22 @@ footer{
 footer address:last-child{
 	margin-bottom: 0;
 
+}
+
+@media(min-width: 768px){
+	#paineis-sobre{
+		margin-top: 0;
+	}
+}
+
+@media(min-width: 992px){
+	.topCasaFina-banner{
+		left: 0;
+		transform: translate(0, -80%);
+		width: 50%;
+	}
+	.topCasaFina-bannerWrapper{
+		position: relative;
+		height: 100%;
+	}
 }
